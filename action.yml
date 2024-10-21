@@ -1,0 +1,11 @@
+name: 'Delete Multiple Files'
+description: 'This action deletes multiple provided files from the repository.'
+author: Mohd Mushfique
+inputs:
+  file-paths:
+    description: 'A list of file paths to delete'
+    required: true
+    type: string[]
+runs:
+  using: 'node12'
+  main: 'index.js'
