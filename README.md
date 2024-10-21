@@ -14,7 +14,7 @@ Use this action in any step like so:
 
 ```yaml
 - name: Remove Files
-  uses: mdmush/remove-files@v1.0.0
+  uses: mdmush/remove-files@v1.0.1
   with:
     file-paths: |
       /path/to/file1
