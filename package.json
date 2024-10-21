@@ -1,6 +1,6 @@
 {
   "name": "remove-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub Action to recursively and forcefully remove multiple files or folders",
   "main": "index.js",
   "scripts": {
