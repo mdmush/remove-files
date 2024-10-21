@@ -6,6 +6,9 @@ inputs:
     description: 'A list of file paths to delete'
     required: true
     type: string[]
+branding:
+  icon: 'delete'
+  color: 'black'
 runs:
   using: 'node12'
   main: 'index.js'
